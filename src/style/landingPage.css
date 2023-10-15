@@ -1,0 +1,58 @@
+.myBG {
+    height: 100vh;
+    background-image: url('../assets/images/bg/bg-main.jpg');
+    background-size: cover;
+}
+.intro {
+    height: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 190px;
+    margin-top: 100px;
+    font-size:3rem;
+}
+.title {
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px black;
+}
+.superhero {
+    height: auto;
+    background-image: url('../assets/images/bg/scifi.jpg');
+    background-size: cover;
+}
+
+.trending {
+    height: auto;
+    background-image: url('../assets/images/bg/trending-bg.webp');
+    background-size: cover;
+}
+.moviesuperhero {
+    height:auto;
+    margin: 5px;
+    padding: 5px;
+}
+.images {
+    height: 300px;
+}
+@media (max-width: 576px) {
+    .intro {
+        height: 300px;
+        width: 100%;
+        color: white;
+        /* position: relative;
+        top: -50px; */
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:326px) {
+    .intro {
+        position: relative;
+        top: -100px;
+        font-size: 1.2rem;
+        
+    }
+}
